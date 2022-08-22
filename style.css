@@ -29,7 +29,9 @@ a {
 h1 span {
   font-weight: bold;
 }
-p {
+
+p, 
+#footer {
   color: #7D7987;
   font-size: 14px;
   line-height: 28px;
@@ -37,4 +39,17 @@ p {
 
 #footer a + a {
   margin-left: 28px;
+}
+
+#line {
+  width: 568px;
+  height: 0px;
+
+  margin: 0 auto 8px;
+
+  border: 1px solid #ECEFF2
+}
+
+#balls {
+  
 }
